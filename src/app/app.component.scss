@@ -1,0 +1,16 @@
+.wrapper{
+    min-height: 100vh;
+    background-color: #2f393d;
+    padding: 10px;
+}
+.popup{
+    display: block;
+    margin: 0 auto;
+    font-size: 600;
+    background-color: #ccc;
+    border: black;
+    font-weight: 600;
+    font-size: 18px;
+    width: fit-content;
+    cursor: pointer;
+}

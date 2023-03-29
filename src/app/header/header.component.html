@@ -1,0 +1,7 @@
+<div class="body">
+    <h1> <b>User group: </b><span>{{UserGroupService.groupName}}</span></h1>
+    <div class="edit-body">
+        <input type="text" placeholder="Write new group name" [(ngModel)]="newGroupName" value="{{UserGroupService.groupName}}">
+        <button class="network" (click)="groupNameEdit()">Edit</button>
+    </div>
+</div>
